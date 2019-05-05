@@ -9,8 +9,5 @@ public class ReceiveBroadcast extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        // TODO: This method is called when the BroadcastReceiver is receiving
-        // an Intent broadcast.
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
+        Toast.makeText(context,"Broadcast received!", Toast.LENGTH_LONG);
 }
